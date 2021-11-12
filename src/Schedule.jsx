@@ -158,9 +158,9 @@ class Schedule extends React.Component {
         weeks.push({
           weekNumber: moment(currentDate).isoWeek(),
           startDate: moment(currentDate),
-          endDate: moment(currentDate).add(6, 'd')
+          endDate: moment(currentDate).add(15, 'd')
         })
-        currentDate = currentDate.add(7, 'd')
+        currentDate = currentDate.add(16, 'd')
       }
 
       return weeks
