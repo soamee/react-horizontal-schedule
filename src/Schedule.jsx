@@ -162,6 +162,8 @@ class Schedule extends React.Component {
         })
         currentDate = currentDate.add(16, 'd')
       }
+      
+      console.log({ weeks });
 
       return weeks
     }
